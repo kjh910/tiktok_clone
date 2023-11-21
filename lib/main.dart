@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:tiktok_clone/constants/sizes.dart';
-import 'package:tiktok_clone/features/main_navigation/main_navigation_screen.dart';
+import 'package:tiktok_clone/features/authentication/login_screen.dart';
 
 void main() {
   runApp(const TiktokApp());
@@ -28,7 +28,7 @@ class TiktokApp extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           )),
-      home: const MainNavigationScreen(),
+      home: const LoginScreen(),
       supportedLocales: const [
         Locale("en"),
         Locale("ja"),
